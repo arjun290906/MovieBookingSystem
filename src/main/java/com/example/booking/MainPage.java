@@ -24,9 +24,18 @@ public class MainPage {
         lblMovieList.setStyle("-fx-font-size: 14px;");
 
         List<Movie> moviesList = Arrays.asList(
-                new Movie("Inception", "Sci-Fi", 148, Time.valueOf("18:30:00")),
-                new Movie("The Dark Knight", "Action", 152, Time.valueOf("20:00:00")),
-                new Movie("Interstellar", "Sci-Fi", 169, Time.valueOf("21:30:00"))
+                new Movie("27 Dresses", "Romance", 148, Time.valueOf("18:30:00")),
+                new Movie("Mean Girls", "Drama", 152, Time.valueOf("20:00:00")),
+                new Movie("13 Going 30", "Coming Of Age", 169, Time.valueOf("21:30:00")),
+                new Movie("The Devil Wears Prada", "Comedy", 109, Time.valueOf("19:00:00")),
+                new Movie("How To Lose A Guy In 10 Days", "Romance", 117, Time.valueOf("22:00:00")),
+                new Movie("500 Days Of Summer", "Romance", 95, Time.valueOf("17:00:00")),
+                new Movie("Pride & Prejudice", "Romance", 127, Time.valueOf("20:30:00")),
+                new Movie("The Proposal", "Romance", 108, Time.valueOf("21:00:00")),
+                new Movie("10 Things I Hate About You", "Romance", 97, Time.valueOf("18:00:00")),
+                new Movie("She's The Man", "Comedy", 105, Time.valueOf("19:30:00")),
+                new Movie("Princess Diaries", "Comedy", 115, Time.valueOf("17:30:00")),
+                new Movie("A Cindrella Story", "Romance", 100, Time.valueOf("22:30:00"))
         );
 
         TableView<Movie> table = new TableView<>();
